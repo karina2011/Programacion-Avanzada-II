@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="action.js"></script>
+</head>
+<body>
+    <button onclick="showPosts('https://utn2019-avanzada2-tp6.herokuapp.com/api/posts')">OBTENER TODOS LOS POSTS</button>
+    <div id="post"> </div>
+    <form action="" name="form"  oninput ="getOnePostForId('https://utn2019-avanzada2-tp6.herokuapp.com/api/posts/')">
+         INGRESE EL ID DEL POST QUE DESEA OBTENER: <input type="text" name="id"  value="">
+    </form>
+    <form action="" name="postForm" >
+        titulo: <input type="text" id="titulo" id="" value="">
+        posteo: <input type="text" id="posteo" value="">
+        <button  onclick="createPost('https://utn2019-avanzada2-tp6.herokuapp.com/api/posts')">enviar</button>
+    </form>
+    </body>
+</html>
