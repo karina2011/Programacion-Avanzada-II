@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="action.js"></script>
+</head>
+<body>
+        <form id="form" onsubmit="">  
+            cantidad columnas: <input type="text" id="totalColum"><br>  
+            cantidad filas: <input type="text" id="totalRow"><br> 
+            <input type="button" id="enviar" value="crear tabla" onclick="getTable()"/> 
+            <table border="1">
+                <thead id="thead"></thead>
+                <tbody id="tbody"></tbody>
+            </table>
+        </form>  
+        
+    
+</body>
+</html>
